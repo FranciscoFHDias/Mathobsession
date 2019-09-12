@@ -41,10 +41,15 @@ Mathobsession is a virtual community where teachers can find and share exercises
 
 ### Approach Taken
 
-####Planning 
+#### Planning 
 
-* **Team communication and ways of working** 
-User Stories/Wireframes 
+* **Team communication and ways of working** We spent the first day agreeing how we would work together, keep each other informed of progress and ultimately create a consistent code. We used Trello to break down the project and keep track of progress. We also spent a few minutes every morning reviewing what we achieved the day before and what we would work towards that day. 
+
+* **User Stories/Wireframes** 
+
+* **Database Relationships** 
+![My First Board](https://user-images.githubusercontent.com/49660544/64784841-f2e33a80-d562-11e9-9ff7-2f2c7f46bb56.jpg)
+
 Project set-up
 
 Execution
