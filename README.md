@@ -28,22 +28,15 @@ Mathobsession is a virtual community where teachers can find and share exercises
 * JavaScript (ES6)
 * Git
 * GitHub
-* External API
-* React
-  * React-mapbox-gl
+* REACT
   * React-select
-  * React star-rating-component
   * React star-ratings
   * React- Toastify
+  * Filestack-react
 * Webpack
 * Bulma
-* Node JS
-* Babel
-* Insomnia
-* REACT
-* Filestack-react
-* Monogdb
-* Nodemailer
-* Express
+* Django
+* Python
 * Heroku
-* Google Fonts
+
+### Approach Taken
