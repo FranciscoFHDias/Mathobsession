@@ -45,9 +45,23 @@ Mathobsession is a virtual community where teachers can find and share exercises
 
 * **Team communication and ways of working** We spent the first day agreeing how we would work together, keep each other informed of progress and ultimately create a consistent code. We used Trello to break down the project and keep track of progress. We also spent a few minutes every morning reviewing what we achieved the day before and what we would work towards that day. 
 
-* **User Stories/Wireframes** 
+* **User Stories/Wireframes** We discussed the user journey we hoped to offer and created wireframes for all different pages similar to the one shown below. 
 
-* **Database Relationships** 
+We drafted the following pages for MVP:
+* Home
+* All Subjects list
+* All Exercises with filter
+* Exercises per Subject  
+* Add Exercise
+* Login
+* Register
+* Profile
+* Profile Edit
+
+![My First Board (1)](https://user-images.githubusercontent.com/49660544/64786319-178ce180-d566-11e9-8a59-ba9819142eb2.jpg)
+
+* **Database Relationships** We drew the Database relationships, as shown below. The MVP consisted of User, Exercise and Subject. Comments and Sub-subjects were extra features should time allowed. 
+
 ![My First Board](https://user-images.githubusercontent.com/49660544/64784841-f2e33a80-d562-11e9-9ff7-2f2c7f46bb56.jpg)
 
 * **Project set-up**
@@ -62,13 +76,3 @@ Future
 
 Learnings to the next project 
 Future funtionality 
-
-
-
-
-
-
-
-
-
-
