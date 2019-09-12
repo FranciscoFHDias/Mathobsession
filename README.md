@@ -19,3 +19,31 @@ Mathobsession is a virtual community where teachers can find and share exercises
 * **Be deployed online** so it's publicly accessible.
 * **Have automated tests** for _at least_ one RESTful resource on the back-end. Improve your employability by demonstrating a good understanding of testing principals.
 
+## Project Execution
+
+### Technologies Used
+* HTML5
+* CSS3
+* SASS
+* JavaScript (ES6)
+* Git
+* GitHub
+* External API
+* React
+  * React-mapbox-gl
+  * React-select
+  * React star-rating-component
+  * React star-ratings
+  * React- Toastify
+* Webpack
+* Bulma
+* Node JS
+* Babel
+* Insomnia
+* REACT
+* Filestack-react
+* Monogdb
+* Nodemailer
+* Express
+* Heroku
+* Google Fonts
