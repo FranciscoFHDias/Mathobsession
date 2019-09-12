@@ -50,7 +50,7 @@ Mathobsession is a virtual community where teachers can find and share exercises
 * **Database Relationships** 
 ![My First Board](https://user-images.githubusercontent.com/49660544/64784841-f2e33a80-d562-11e9-9ff7-2f2c7f46bb56.jpg)
 
-Project set-up
+* **Project set-up**
 
 Execution
 
