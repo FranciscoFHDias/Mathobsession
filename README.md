@@ -40,3 +40,30 @@ Mathobsession is a virtual community where teachers can find and share exercises
 * Heroku
 
 ### Approach Taken
+
+####Planning 
+
+* **Team communication and ways of working** 
+User Stories/Wireframes 
+Project set-up
+
+Execution
+
+Backend 
+Frontend 
+Testing 
+
+Future 
+
+Learnings to the next project 
+Future funtionality 
+
+
+
+
+
+
+
+
+
+
