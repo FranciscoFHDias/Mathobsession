@@ -20,13 +20,13 @@ Mathobsession is a virtual community where teachers can find and share exercises
 * **Implement thoughtful user stories/wireframes** that are significant enough to help you know which features are core MVP and which you can cut
 * **Be deployed online** so it's publicly accessible.
 * **Have automated tests** for _at least_ one RESTful resource on the back-end. Improve your employability by demonstrating a good understanding of testing principals.
+* **A working app in 5 days** hosted on the internet
 
 ## Project Execution
 
 ### Technologies Used
 * HTML5
-* CSS3
-* SASS
+* SCSS
 * JavaScript (ES6)
 * Git
 * GitHub
@@ -37,9 +37,13 @@ Mathobsession is a virtual community where teachers can find and share exercises
   * Filestack-react
 * Webpack
 * Bulma
+* Babel
+* Node.js
 * Django
 * Python
 * Heroku
+* SQLite
+* Trello
 
 ### Approach Taken
 
@@ -70,10 +74,10 @@ Mathobsession is a virtual community where teachers can find and share exercises
 #### Execution
 ### Backend 
 
-**Technology used -** Django, Python and SQLite3
+> **Technology used -** Django, Python and SQLite3
 
-**Approach used** 
-* Started by creating the models 
+> **Approach used** 
+  * Started by creating the models 
 ```py
 class Subject(models.Model):
     name = models.CharField(max_length=25)
@@ -102,15 +106,15 @@ class Exercise(models.Model):
         return f'{self.content} level {self.level}'
 ```
 
-* Followed by view components to:
-  * Exercise List 
-  * Exercise Detail
-  * Subject List
-  * Subject Detail
-  * Sketch List 
-  * Sketch Detail
-  * User Profile
-  * Contact Us
+ * Followed by view components to:
+   * Exercise List 
+   * Exercise Detail
+   * Subject List
+   * Subject Detail
+   * Sketch List 
+   * Sketch Detail
+   * User Profile
+   * Contact Us
  
 Example:
 ```py
@@ -130,7 +134,7 @@ class ExerciseDetailView(APIView):
         return Response(serializer.errors, status=422)
 ```
 
-* Followed by Serializers - In the model we have a many to many relationship between the Subject and the Exercise. For that we needed to create two serializer for each one of them, we will explain with the exercise serializers
+  * Followed by Serializers - In the model we have a many to many relationship between the Subject and the Exercise. For that we needed to create two serializer for each one of them, we will explain with the exercise serializers
 ```py
 class ExerciseSerializer(serializers.ModelSerializer):
 ​
@@ -149,7 +153,7 @@ class PopulatedExerciseSerializer(ExerciseSerializer):
 ```
 ExerciseSerializer only constains the id field of the Subject Model while PopulatedExerciseSerializer contains all fields of the Subject Model. That was necessary to avoid an infinity loop when of Exercise - Subject - Exercise - etc. 
 
-* Sketches database
+  * Sketches database
 
 To enhance the user experience we created a database of sketches which the user could choose from when uploading a new exercise. 
 
@@ -217,10 +221,10 @@ class UserSerializer(serializers.ModelSerializer):
 
 ### Frontend 
 
-**Technology used -** React and Bulma
+> **Technology used -** React and Bulma
 
-**Approach used** 
-* New Exercise page allows the user to save a exercise to the the database. In here the input fields vary from pre-populated such as drop-down list from React Select and textarea.
+> **Approach used** 
+  * New Exercise page allows the user to save a exercise to the the database. In here the input fields vary from pre-populated such as drop-down list from React Select and textarea.
 
 ```js
 handleSubmit(e) {
@@ -256,7 +260,7 @@ componentDidMount() {
         )}
 ```
 
-* We felt that it was important fot the user to be able to filter Exercises by Subject therefore we created the filter below which sits in the Index page. 
+  * We felt that it was important fot the user to be able to filter Exercises by Subject therefore we created the filter below which sits in the Index page. 
 
 ```js
 filterExercises(){
@@ -275,18 +279,19 @@ Ract Select was used to allow the user to choose the disareable sketch from the 
 ![Example of sketch](https://user-images.githubusercontent.com/51882532/65896541-4d72f800-e3a5-11e9-8086-8298ab5fc52d.png)
 
 ## Wins and Blockers
-### Wins
+> **Wins**
 * MVP achieved whitin planed timescales which allowed us to work on extra features,
 * Create a filter that allows the user to filter exercises by more than one subject, mapping over a nested array,
 * Enabled the user to add sketches to exercises in a user friendly way.
 
-### Blockers
+> **Blockers**
 *  Upload exercises in a different way than a string. This would have improved how the exercises are displayed afterwards. 
 
 ## Future Content/Features
 * Add Comments and Sub-subjects relationship to the database,
 * Improve user profiles by connecting to an API which will further extend the Teacher profile by using information made available by the professional body TESS,
 * Create a section to allow students to use/complete the exercises and get live feedback.
+* Tests
 
 ## What we learnt
 * The benefits of using a SQLite database, 
