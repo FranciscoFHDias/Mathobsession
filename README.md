@@ -4,6 +4,10 @@
 
 <img width="1391" alt="Mathobsession Screenshot" src="https://user-images.githubusercontent.com/49660544/64781215-400ede80-d55a-11e9-9ab4-ce105fba7109.png">
 
+## Team
+* **Francisco Dias** - [GitHub](https://github.com/FranciscoFHDias)
+* **Daniel H Cohen** - [GitHub](https://github.com/Mathsteacher7)
+
 ## Overview
 Mathobsession is a virtual community where teachers can find and share exercises to be used by their pupils. The activities are mapped against the UK national curriculum and level of difficulty. 
 
