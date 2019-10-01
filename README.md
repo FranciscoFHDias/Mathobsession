@@ -107,14 +107,14 @@ class Exercise(models.Model):
 ```
 
  * Followed by view components to:
-   * Exercise List 
-   * Exercise Detail
-   * Subject List
-   * Subject Detail
-   * Sketch List 
-   * Sketch Detail
-   * User Profile
-   * Contact Us
+    * Exercise List 
+    * Exercise Detail
+    * Subject List
+    * Subject Detail
+    * Sketch List 
+    * Sketch Detail
+    * User Profile
+    * Contact Us
  
 Example:
 ```py
